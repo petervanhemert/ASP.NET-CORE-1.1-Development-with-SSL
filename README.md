@@ -35,7 +35,14 @@ Open program.cs
 before
 .......Capture 5.......
 
-Add "Microsoft.AspNetCore.Server.Kestrel.Https" dependency from Nuget package Manager.
+Add 
+
+####Add DataContext class
+```
+Microsoft.AspNetCore.Server.Kestrel.Https 
+```
+
+ dependency from Nuget package Manager.
 .......Capture 11.......
 back to Program.cs and ad the following code so that it looks like this:
 after
