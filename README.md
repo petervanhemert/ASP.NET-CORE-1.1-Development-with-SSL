@@ -6,7 +6,7 @@ Create New ASP>NET Core Web Application(.NET Core).
 Select Web Application and be sure that you have "ASP.NET Core 1.1" selected in the dropdown and Individual User Accounts.
 
 <p align="center">
-  <img src="/MD_Images/Capture%201.PNG" width="350"/>
+  <img src="/MD_Images/Capture%201.PNG" width="600"/>
 </p>
 https://github.com/petervanhemert/ASP.NET-CORE-1.1-Development-with-SSL/blob/master/MD_Images/Capture%201.PNG
 
