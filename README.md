@@ -4,6 +4,9 @@ Visual Studio 2017
 ### For debugging in IIS Express.
 Create New ASP>NET Core Web Application(.NET Core).
 Select Web Application and be sure that you have "ASP.NET Core 1.1" selected in the dropdown and Individual User Accounts.
+
+https://github.com/petervanhemert/ASP.NET-CORE-1.1-Development-with-SSL/blob/master/MD_Images/Capture%201.PNG
+
 ......Capture 1......
 Right click your project and select properties.
 select Debug in the left menu.
