@@ -35,9 +35,8 @@ Open program.cs
 before
 .......Capture 5.......
 
-Add 
 
-####Add DataContext class
+####Add dependency in Nuget package Manager.
 ```
 Microsoft.AspNetCore.Server.Kestrel.Https 
 ```
