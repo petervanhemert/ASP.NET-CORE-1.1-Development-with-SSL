@@ -7,7 +7,6 @@ Select Web Application and be sure that you have "ASP.NET Core 1.1" selected in 
 
 <p align="center">
   <img src="/MD_Images/Capture%201.PNG" width="350"/>
-  <img src="your_relative_path_here_number_2_large_name" width="350"/>
 </p>
 https://github.com/petervanhemert/ASP.NET-CORE-1.1-Development-with-SSL/blob/master/MD_Images/Capture%201.PNG
 
