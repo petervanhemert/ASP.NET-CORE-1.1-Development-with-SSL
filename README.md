@@ -37,3 +37,8 @@ after
 I put the URL as: https://localhost:5011 you can choose whatever you like.
 Now change your debug mode into the project. and F5 or ctrl F5.
 .......Capture 12.......
+Go to your browser and enter the URL https://localhost:5011.
+.......Capture 13.......
+select ADVANCED and then "Proceed to localhost (unsafe)".
+And It's running in Https now.
+
