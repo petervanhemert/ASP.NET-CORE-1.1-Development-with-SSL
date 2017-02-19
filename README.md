@@ -9,5 +9,15 @@ Right click your project and select properties.
 select Debug in the left menu.
 Enable SSL. and save . Remember the URL in this case https://localhost:44336/
 ......Capture 2.......
-See in your ;aunchSettings.json that the sslPort is changed from 0 to 44336
+See in your launchSettings.json that the sslPort is changed from 0 to 44336
 .......Capture 3.......
+et voila' 
+.......Capture 4.......
+
+### For debugging in Project(Kestrel).
+Open program.cs
+before
+.......Capture 5.......
+
+after
+.......Capture 6.......
