@@ -15,6 +15,16 @@ et voila'
 .......Capture 4.......
 
 ### For debugging in Project(Kestrel).
+Create certificate:
+Right click your project and select properties.
+.......Capture 7.......
+select Signing in the left menu.
+Select the box "Sign the assembly".
+in the dropdown select new.
+Give your key a name and password.
+.......Capture 8. and 9......
+In your solution you will see the certificate file pfx.
+.......Capture 10.......
 Open program.cs
 before
 .......Capture 5.......
