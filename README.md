@@ -28,7 +28,7 @@ See in your launchSettings.json that the sslPort is changed from 0 to 44336
 <p align="center">
   <img src="/MD_Images/Capture%203.PNG" width="600"/>
 </p>
-et voila' 
+Et voilà....You're Done.
 <p align="center">
   <img src="/MD_Images/Capture%204.PNG" width="600"/>
 </p>
