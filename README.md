@@ -36,7 +36,7 @@ in the dropdown select new.
 Give your key a name and password.
 <p align="center">
   <img src="/MD_Images/Capture%208.PNG" width="350"/>
-    <img src="/MD_Images/Capture%209.PNG" width="350"/>
+  <img src="/MD_Images/Capture%209.PNG" width="350"/>
 </p>
 In your solution you will see the certificate file pfx.
 <p align="center">
