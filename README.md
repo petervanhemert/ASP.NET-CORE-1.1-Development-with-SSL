@@ -1,7 +1,7 @@
 # ASP.NET-CORE-1.1-Development-with-SSL
 Visual Studio 2017
 
-### For debugging in IIS Express.
+## For debugging in IIS Express.
 Create New ASP>NET Core Web Application(.NET Core).
 Select Web Application and be sure that you have "ASP.NET Core 1.1" selected in the dropdown and Individual User Accounts.
 
@@ -24,7 +24,7 @@ et voila'
   <img src="/MD_Images/Capture%204.PNG" width="600"/>
 </p>
 
-### For debugging in Project(Kestrel).
+## For debugging in Project(Kestrel).
 Create certificate:
 Right click your project and select properties.
 <p align="center">
