@@ -26,7 +26,7 @@ et voila'
   <img src="/MD_Images/Capture%204.PNG" width="600"/>
 </p>
 
-### Debugging in Project
+## Debugging in Project
 Create certificate:
 Right click your project and select properties.
 <p align="center">
@@ -65,7 +65,10 @@ Now change your debug mode into the project. and F5 or ctrl F5.
 <p align="center">
   <img src="/MD_Images/Capture 12.2.PNG" width="600"/>
 </p>
-Go to your browser and enter the URL https://localhost:5011.
+Go to your browser and enter the URL:
+```
+https://localhost:5011
+```
 <p align="center">
   <img src="/MD_Images/Capture 13.PNG" width="600"/>
 </p>
