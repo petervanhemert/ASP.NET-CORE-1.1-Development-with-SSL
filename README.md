@@ -13,7 +13,14 @@ Select Web Application and be sure that you have "ASP.NET Core 1.1" selected in 
 
 Right click your project and select properties.
 select Debug in the left menu.
-Enable SSL. and save . Remember the URL in this case https://localhost:44336/
+
+Enable SSL and save. 
+
+Remember the URL, in this case:
+```
+https://localhost:44336/
+```
+
 <p align="center">
   <img src="/MD_Images/Capture%202.PNG" width="600"/>
 </p>
