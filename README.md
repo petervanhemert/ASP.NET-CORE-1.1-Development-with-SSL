@@ -37,7 +37,7 @@ Et voilà....You're Done.
 Create certificate:
 Right click your project and select properties.
 <p align="center">
-  <img src="/MD_Images/Capture%207.PNG" width="600"/>
+  <img src="/MD_Images/image_thumb_4.png" width="600"/>
 </p>
 select Signing in the left menu.
 Select the box "Sign the assembly".
