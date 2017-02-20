@@ -61,7 +61,7 @@ Before and After
 I put the URL as: https://localhost:5011 you can choose whatever you like.
 Now change your debug mode into the project. and F5 or ctrl F5.
 <p align="center">
-  <img src="/MD_Images/Capture%212.PNG" width="600"/>
+  <img src="/MD_Images/Capture 12.PNG" width="600"/>
 </p>
 Go to your browser and enter the URL https://localhost:5011.
 <p align="center">
