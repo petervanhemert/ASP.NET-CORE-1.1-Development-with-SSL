@@ -1,9 +1,9 @@
 # ASP.NET-CORE-1.1-Development-with-SSL
 Visual Studio 2017
 
-- [Debugging in IIS Express](#ignore-whitespace)
+
 - [Debugging in IIS Express](#debugging-in-iis-express)
-- [Debugging in IIS Express(#debugging-in-iis-express)
+- [Debugging in IIS Project(Kestrel)](#debugging-in-project(kestrel))
 
 
 ### Debugging in IIS Express
@@ -29,7 +29,7 @@ et voila'
   <img src="/MD_Images/Capture%204.PNG" width="600"/>
 </p>
 
-## For debugging in Project(Kestrel).
+### Debugging in Project(Kestrel)
 Create certificate:
 Right click your project and select properties.
 <p align="center">
