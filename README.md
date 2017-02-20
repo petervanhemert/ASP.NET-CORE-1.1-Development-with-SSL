@@ -14,26 +14,41 @@ https://github.com/petervanhemert/ASP.NET-CORE-1.1-Development-with-SSL/blob/mas
 Right click your project and select properties.
 select Debug in the left menu.
 Enable SSL. and save . Remember the URL in this case https://localhost:44336/
-......Capture 2.......
+<p align="center">
+  <img src="/MD_Images/Capture%202.PNG" width="600"/>
+</p>
 See in your launchSettings.json that the sslPort is changed from 0 to 44336
-.......Capture 3.......
+<p align="center">
+  <img src="/MD_Images/Capture%203.PNG" width="600"/>
+</p>
 et voila' 
-.......Capture 4.......
+<p align="center">
+  <img src="/MD_Images/Capture%204.PNG" width="600"/>
+</p>
 
 ### For debugging in Project(Kestrel).
 Create certificate:
 Right click your project and select properties.
-.......Capture 7.......
+<p align="center">
+  <img src="/MD_Images/Capture%207.PNG" width="600"/>
+</p>
 select Signing in the left menu.
 Select the box "Sign the assembly".
 in the dropdown select new.
 Give your key a name and password.
-.......Capture 8. and 9......
+<p align="center">
+  <img src="/MD_Images/Capture%208.PNG" width="350"/>
+    <img src="/MD_Images/Capture%209.PNG" width="350"/>
+</p>
 In your solution you will see the certificate file pfx.
-.......Capture 10.......
+<p align="center">
+  <img src="/MD_Images/Capture%210.PNG" width="600"/>
+</p>
 Open program.cs
 before
-.......Capture 5.......
+<p align="center">
+  <img src="/MD_Images/Capture%205.PNG" width="600"/>
+</p>
 
 
 ####Add dependency in Nuget package Manager.
@@ -42,15 +57,23 @@ Microsoft.AspNetCore.Server.Kestrel.Https
 ```
 
  dependency from Nuget package Manager.
-.......Capture 11.......
+<p align="center">
+  <img src="/MD_Images/Capture%211.PNG" width="600"/>
+</p>
 back to Program.cs and ad the following code so that it looks like this:
 after
-.......Capture 6.......
+<p align="center">
+  <img src="/MD_Images/Capture%206.PNG" width="600"/>
+</p>
 I put the URL as: https://localhost:5011 you can choose whatever you like.
 Now change your debug mode into the project. and F5 or ctrl F5.
-.......Capture 12.......
+<p align="center">
+  <img src="/MD_Images/Capture%212.PNG" width="600"/>
+</p>
 Go to your browser and enter the URL https://localhost:5011.
-.......Capture 13.......
+<p align="center">
+  <img src="/MD_Images/Capture%213.PNG" width="600"/>
+</p>
 select ADVANCED and then "Proceed to localhost (unsafe)".
 And It's running in Https now.
 
