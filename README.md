@@ -29,7 +29,7 @@ et voila'
   <img src="/MD_Images/Capture%204.PNG" width="600"/>
 </p>
 
-### Debugging in Project (Kestrel)
+### Debugging in Project
 Create certificate:
 Right click your project and select properties.
 <p align="center">
