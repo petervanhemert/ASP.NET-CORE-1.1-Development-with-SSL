@@ -40,7 +40,8 @@ Give your key a name and password.
 </p>
 In your solution you will see the certificate file pfx.
 <p align="center">
-  <img src="/MD_Images/Capture%210.PNG" width="600"/>
+  <img src="/MD_Images/Capture 10.PNG" width="600"/>
+  MD_Images/Capture 10.PNG
 </p>
 Open program.cs
 before
