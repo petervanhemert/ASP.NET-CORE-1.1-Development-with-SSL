@@ -80,5 +80,8 @@ https://localhost:5011
   <img src="/MD_Images/Capture 13.PNG" width="600"/>
 </p>
 select ADVANCED and then "Proceed to localhost (unsafe)".
+<p align="center">
+  <img src="/MD_Images/Capture 13.PNG" width="600"/>
+</p>
 And It's running in Https now.
 
