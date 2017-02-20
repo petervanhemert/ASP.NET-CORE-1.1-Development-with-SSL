@@ -54,8 +54,8 @@ Open program.cs and ad the following code so that it looks like this:
 
 Before and After
 <p align="center">
-  <img src="/MD_Images/Capture%205.PNG" width="350"/>
-  <img src="/MD_Images/Capture%206.PNG" width="350"/>
+  <img src="/MD_Images/Capture%205.PNG" width="300"/>
+  <img src="/MD_Images/Capture%206.PNG" width="400"/>
 </p>
 
 I put the URL as: https://localhost:5011 you can choose whatever you like.
