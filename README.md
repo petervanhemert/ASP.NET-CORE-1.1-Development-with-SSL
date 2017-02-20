@@ -42,13 +42,6 @@ In your solution you will see the certificate file pfx.
 <p align="center">
   <img src="/MD_Images/Capture 10.PNG" width="350"/>
 </p>
-Open program.cs
-before
-<p align="center">
-  <img src="/MD_Images/Capture%205.PNG" width="600"/>
-</p>
-
-
 ####Add dependency in Nuget package Manager.
 ```
 Microsoft.AspNetCore.Server.Kestrel.Https 
@@ -56,7 +49,13 @@ Microsoft.AspNetCore.Server.Kestrel.Https
 <p align="center">
   <img src="/MD_Images/Capture 11.PNG" width="600"/>
 </p>
-back to Program.cs and ad the following code so that it looks like this:
+back to Program.cs
+Open program.cs
+before
+<p align="center">
+  <img src="/MD_Images/Capture 05.PNG" width="600"/>
+</p>
+and ad the following code so that it looks like this:
 after
 <p align="center">
   <img src="/MD_Images/Capture%206.PNG" width="600"/>
