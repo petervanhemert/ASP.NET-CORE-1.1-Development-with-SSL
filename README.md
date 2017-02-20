@@ -53,10 +53,8 @@ before
 ```
 Microsoft.AspNetCore.Server.Kestrel.Https 
 ```
-
- dependency from Nuget package Manager.
 <p align="center">
-  <img src="/MD_Images/Capture%211.PNG" width="600"/>
+  <img src="/MD_Images/Capture 11.PNG" width="600"/>
 </p>
 back to Program.cs and ad the following code so that it looks like this:
 after
