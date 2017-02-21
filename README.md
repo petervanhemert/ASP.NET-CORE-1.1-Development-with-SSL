@@ -37,9 +37,9 @@ Et voilà....You're Done.
 Create certificate:
 Right click your project and select properties.
 
-Select Signing in the left menu.
+Select `Signing` in the left menu.
 
-Select the box "Sign the assembly" and in the dropdown select new.
+Select the box [] "Sign the assembly" and in the dropdown select new.
 
 Give your key a name and password.
 <p align="center">
