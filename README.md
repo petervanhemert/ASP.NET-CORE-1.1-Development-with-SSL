@@ -36,12 +36,11 @@ Et voilà....You're Done.
 ## Debugging in Project
 Create certificate:
 Right click your project and select properties.
-<p align="center">
-  <img src="/MD_Images/image_thumb_4.png" width="600"/>
-</p>
-select Signing in the left menu.
-Select the box "Sign the assembly".
-in the dropdown select new.
+
+Select Signing in the left menu.
+
+Select the box "Sign the assembly" and in the dropdown select new.
+
 Give your key a name and password.
 <p align="center">
   <img src="/MD_Images/Capture%208.PNG" width="350"/>
