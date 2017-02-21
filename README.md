@@ -61,7 +61,31 @@ Microsoft.AspNetCore.Server.Kestrel.Https
 
 Open program.cs and ad the following code so that it looks like this:
 
-Before and After
+Before 
+
+```ruby
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var host = new WebHostBuilder()
+                .UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseIISIntegration()
+                .UseStartup<Startup>()
+                .UseApplicationInsights()
+                .Build();
+
+            host.Run();
+        }
+    }
+```
+
+After
+```ruby
+
+```
+
 <p align="center">
   <img src="/MD_Images/Capture%205.PNG" width="250"/>
   <img src="/MD_Images/Capture%206.PNG" width="450"/>
