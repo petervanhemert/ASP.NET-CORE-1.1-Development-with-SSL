@@ -83,7 +83,24 @@ Before
 
 After
 ```ruby
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            `var cert = new X509Certificate2("IdentityServer4TestCertificate.pfx", "123456789");`
 
+            var host = new WebHostBuilder()
+                .UseKestrel(`cfg => cfg.UseHttps(cert)`)
+               `.UseUrls("https://localhost:5011")`
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseIISIntegration()
+                .UseStartup<Startup>()
+                .UseApplicationInsights()
+                .Build();
+
+            host.Run();
+        }
+    }
 ```
 
 <p align="center">
