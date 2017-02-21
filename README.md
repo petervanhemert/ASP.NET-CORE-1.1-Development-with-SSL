@@ -61,15 +61,16 @@ Microsoft.AspNetCore.Server.Kestrel.Https
 
 Open program.cs and ad the following code so that it looks like this:
 
-Before 
-
 ```ruby
     public class Program
     {
         public static void Main(string[] args)
         {
+            var cert = new X509Certificate2("IdentityServer4TestCertificate.pfx", "123456789");
+
             var host = new WebHostBuilder()
-                .UseKestrel()
+                .UseKestrel(cfg => cfg.UseHttps(cert))
+                .UseUrls("https://localhost:5011")
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
@@ -81,32 +82,6 @@ Before
     }
 ```
 
-After
-```ruby
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            `var cert = new X509Certificate2("IdentityServer4TestCertificate.pfx", "123456789");`
-
-            var host = new WebHostBuilder()
-                .UseKestrel(`cfg => cfg.UseHttps(cert)`)
-               `.UseUrls("https://localhost:5011")`
-                .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseIISIntegration()
-                .UseStartup<Startup>()
-                .UseApplicationInsights()
-                .Build();
-
-            host.Run();
-        }
-    }
-```
-
-<p align="center">
-  <img src="/MD_Images/Capture%205.PNG" width="250"/>
-  <img src="/MD_Images/Capture%206.PNG" width="450"/>
-</p>
 
 I put the URL as: https://localhost:5011 you can choose whatever you like.
 Now change your debug mode into the project. and F5 or ctrl F5.
